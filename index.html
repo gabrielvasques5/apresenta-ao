@@ -1,73 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Xavier | Portfolio</title>
+    <title>Gabriel Xavier | Portfólio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a2d9d6a64f.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<header>
-    <div class="container">
+    <header>
         <nav>
-            <h1>Gabriel Xavier</h1>
+            <h2 class="logo">Gabriel Xavier</h2>
+
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+    </header>
 
-        <section class="hero">
-            <div class="hero-text">
-                <h2>Computer Science Student & Future Software Engineer</h2>
-                <p>
-                    Passionate about technology, software development, databases,
-                    and creating impactful digital solutions.
-                </p>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Desenvolvedor em formação.</h1>
+            <h2>Ciência da Computação • CEUB</h2>
 
-                <a href="#projects" class="btn">View Projects</a>
+            <p>
+                Criando experiências modernas, profissionais e focadas em tecnologia.
+            </p>
+
+            <div class="buttons">
+                <a href="https://github.com/gabrielvasques5" target="_blank" class="btn">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/gabriel-vasques-22426640b/" target="_blank" class="btn-outline">
+                    LinkedIn
+                </a>
             </div>
-        </section>
-    </div>
-</header>
-
-<section id="about">
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            My name is Gabriel Xavier and I am currently studying Computer Science
-            at Centro Universitário de Brasília (CEUB).
-            I am focused on developing strong technical skills and building projects
-            that solve real-world problems.
-        </p>
-    </div>
-</section>
-
-<section id="skills">
-    <div class="container">
-        <h2>Skills</h2>
-
-        <div class="skills-grid">
-            <div class="card">Java</div>
-            <div class="card">Python</div>
-            <div class="card">JavaScript</div>
-            <div class="card">SQL</div>
-            <div class="card">HTML & CSS</div>
-            <div class="card">React</div>
-            <div class="card">MySQL</div>
-            <div class="card">Git & GitHub</div>
         </div>
-    </div>
-</section>
 
-<section id="projects">
-    <div class="container">
-        <h2>Projects</h2>
+        <div class="hero-image">
+            <div class="circle"></div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Meu nome é Gabriel Xavier e atualmente curso Ciência da Computação no Centro Universitário de Brasília (CEUB).
+            Tenho interesse em desenvolvimento web, programação e tecnologia.
+            Estou construindo minha trajetória profissional com foco em criar soluções modernas e eficientes.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Tecnologias</h2>
+
+        <div class="skills-container">
+
+            <div class="card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+
+           
+        
+
+            <div class="card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+
+        <p>Email: gabriel.vasques2907@gmail.com</p>
+        <p>Telefone: +55 61 983827821</p>
+
+        <div class="socials">
+            <a href="https://github.com/gabrielvasques5" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/gabriel-vasques-22426640b/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Gabriel Xavier • Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
 </html>
-      
